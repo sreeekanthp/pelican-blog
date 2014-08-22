@@ -1,7 +1,7 @@
 Title: Pelican is awesome
 Date: 2013-08-22 16:08
 Category: Python
-Tags: python
+Tags: python, test
 Author: Tony Stark
 Summary: Pelican is super cool.
 

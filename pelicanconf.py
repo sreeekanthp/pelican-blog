@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Test'
-SITENAME = u'Tests'
+AUTHOR = u'Sreekanth'
+SITENAME = u'Sreekanth\'s Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -37,8 +37,8 @@ DEFAULT_PAGINATION = 10
 SECTIONS = [('Blog', 'index.html'),
         ('Archive', 'archives.html'),
         ('Tags', 'tags.html'),
-        ('Projects', 'pages/projects.html'),
-        ('Talks', 'pages/talks.html'),
+        # ('Projects', 'pages/projects.html'),
+        # ('Talks', 'pages/talks.html'),
         ('About', 'pages/about-me.html')]
 
 DEFAULT_CATEGORY = 'Uncategorized'
@@ -48,12 +48,12 @@ DATE_FORMAT = {
 DEFAULT_DATE_FORMAT = '%d %m %Y'
 
 DISQUS_SITENAME = "sreekanth_p"
-TWITTER_USERNAME = 'your_twitter_user_without @'
-LINKEDIN_URL = 'http://es.linkedin.com/in/you/en'
+TWITTER_USERNAME = 'sreekanthp91'
+LINKEDIN_URL = 'https://www.linkedin.com/profile/view?id=96839960'
 GITHUB_URL = 'http://github.com/you'
-FACEBOOK_URL = 'http://www.facebook.com/you'
-GOOGLEPLUS_URL = 'https://plus.google.com/your_profile_id/posts'
-PINTEREST_URL = 'http://pinterest.com/you'
+FACEBOOK_URL = 'http://www.facebook.com/sreekanthkaralmanna'
+GOOGLEPLUS_URL = 'https://plus.google.com/u/0/106300911869415325463/posts'
+# PINTEREST_URL = 'http://pinterest.com/you'
 
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
