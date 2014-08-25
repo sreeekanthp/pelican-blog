@@ -36,16 +36,16 @@ DEFAULT_PAGINATION = 10
 #Navigation sections and relative URL:
 SECTIONS = [('Blog', 'index.html'),
         ('Archive', 'archives.html'),
-        ('Tags', 'tags.html'),
+        # ('Tags', 'tags.html'),
         # ('Projects', 'pages/projects.html'),
         # ('Talks', 'pages/talks.html'),
-        ('About', 'pages/about-me.html')]
+        ('About', 'pages/about.html')]
 
 DEFAULT_CATEGORY = 'Uncategorized'
 DATE_FORMAT = {
-'en': '%d %m %Y'
+'en': '%d %b %Y'
 }
-DEFAULT_DATE_FORMAT = '%d %m %Y'
+DEFAULT_DATE_FORMAT = '%d %b, %Y'
 
 DISQUS_SITENAME = "sreekanth_p"
 TWITTER_USERNAME = 'sreekanthp91'
